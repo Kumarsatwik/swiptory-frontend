@@ -1,6 +1,6 @@
 import All from "../assets/all.jpg";
 import Education from "../assets/education.jpg";
-import Food from "../assets/food.png";
+import Food from "../assets/Food.png";
 import Medical from "../assets/medical.png";
 import Travel from "../assets/travel.jpg";
 import Movie from "../assets/movie.jpeg";
