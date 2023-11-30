@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap");
+
+:root {
+  --font-base: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+html {
+  position: relative;
+  
+}
+
+h1 {
+  font-weight: var(--font-bold);
+}
+.btn {
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  margin: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text-black {
+  color: black;
+}
+.text-white {
+  color: white;
+}
+.bg-red {
+  background-color: #ff7373;
+}
+.bg-red:hover {
+  background-color: #d55656;
+}
+.bg-blue {
+  background-color: #73abff;
+}
+.bg-blue:hover {
+  background-color: #5192f3;
+}
+.bg-green {
+  background-color: #73ff73;
+}
+.flex {
+  display: flex;
+}
+.flex-direction {
+  flex-direction: column;
+}
+.align-items {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-xl {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.text-right {
+  text-align: right;
+}
+.mt-1 {
+  margin-top: 1rem;
+}

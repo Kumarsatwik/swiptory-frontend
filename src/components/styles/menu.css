@@ -1,0 +1,46 @@
+.menu {
+  position: absolute;
+  top: 10.5vh;
+  right: 10px;
+  box-shadow:  2px 3px 4px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid lightgray;
+
+  padding: 10px;
+  text-align: center;
+  z-index: 10;
+  background-color: white;
+}
+.menu__content{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu{
+    position: absolute;
+    top: 7.5vh;
+    right: 0;
+  }
+  .menu__content{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+  }
+  .menu__profile{
+    display: none;
+  }
+  .menu__user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+  .menu__user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+}

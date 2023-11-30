@@ -1,0 +1,57 @@
+.bookmark {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2rem;
+}
+.bookmark__heading {
+  text-align: center;
+}
+
+.bookmark__card {
+  width: 100%;
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* padding: 0 30px; */
+  height: 100%;
+  position: relative;
+  
+}
+.bookmark__container {
+  max-width: 30vw;
+  max-height: 500px;
+  position: relative;
+}
+
+.bookmark__story {
+  height: 50vh;
+
+  margin: 20px 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bookmark__story-heading {
+  position: absolute;
+  bottom: 30%;
+  left: 25px;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.bookmark__story-description {
+  position: absolute;
+  bottom: 7%;
+  left: 25px;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.bookmark__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
