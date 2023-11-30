@@ -23,10 +23,11 @@ const Modal = ({ isLogin, setIsLogin }) => {
         { username, password }
       )
       .then((res) => {
-        dispatch(setUser(res.data.user));
         dispatch(setToken(res.data.token));
         dispatch(setLoggedIn(true));
         setIsLogin("");
+        
+        dispatch(setUser(res.data.user));
         localStorage.setItem("_user", JSON.stringify(res.data.user));
         localStorage.setItem("_token", res.data.token);
         localStorage.setItem("_loggedIn", true);
