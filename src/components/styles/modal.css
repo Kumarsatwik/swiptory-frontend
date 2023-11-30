@@ -13,6 +13,10 @@
   z-index: 99;
   background-color: white;
 }
+.modal__heading{
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
 .close_icon {
   position: absolute;
   right: 4%;
