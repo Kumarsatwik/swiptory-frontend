@@ -6,7 +6,7 @@ import { FaBookmark } from "react-icons/fa";
 import Menu from "../Menu";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import AddStory from "../AddStory/addStory";
+import AddStory from "../AddStory/AddStory";
 import { openModal, closeModal } from "../../reducer/postSlice";
 
 const Header = ({ newPostModal, setNewPostModal }) => {
