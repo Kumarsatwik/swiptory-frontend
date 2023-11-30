@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./categoryCard.css";
 import { FaRegEdit } from "react-icons/fa";
-import AddStory from "../AddStory/addStory";
 import { useSelector, useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { openModal, closeModal } from "../../reducer/postSlice";
