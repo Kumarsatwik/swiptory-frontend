@@ -13,7 +13,7 @@
   z-index: 99;
   background-color: white;
 }
-.modal__heading{
+.modal__heading {
   font-size: 1.3rem;
   margin-top: 2rem;
 }
@@ -49,6 +49,17 @@
   padding: 0 5px;
 }
 
+.passwordSpan {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  right: 5px;
+}
+
 /* mobile */
 @media screen and (max-width: 600px) {
   .modal {
@@ -66,7 +77,7 @@
     z-index: 99;
     background-color: white;
   }
-  .modal__heading{
+  .modal__heading {
     font-size: 1.3rem;
     margin-top: 2rem;
   }
@@ -87,7 +98,7 @@
     gap: 5px;
     font-weight: bold;
   }
-  .modal__form span label{
+  .modal__form span label {
     width: 100%;
     text-align: left;
     margin-left: 10px;
@@ -99,6 +110,16 @@
     font-weight: bold;
     padding: 0 5px;
   }
+  .passwordSpan {
+    position: relative;
+    margin-top: 10px;
+  }
+  .eye-icon {
+    position: absolute;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    top: 55%;
+    right: 15px;
+  }
 }
-
-
