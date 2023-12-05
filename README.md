@@ -1,8 +1,8 @@
-# React + Vite
+# Swiptory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Backend Code (https://github.com/Kumarsatwik/swiptory-backend)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- SwipTory is web story platform.
+- A web story platform is a content platform where all the content are in the form of stories.
+- A stories feed app where one can upload stories under different niches, like & share them just like instagram stories
+- Backend Deployed in Render and Frontend Deployed in Vercel
